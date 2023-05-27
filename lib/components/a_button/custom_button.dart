@@ -114,7 +114,7 @@ class CustomButton {
     return Container(
       width: width,
       height: height,
-      child: FlatButton(
+      child: MaterialButton(
         padding: padding == null ? EdgeInsets.all(0) : padding,
         shape: RoundedRectangleBorder(
             borderRadius:
